@@ -1,0 +1,57 @@
+.titel1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-bottom: 0;
+}
+.titel2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    margin-top: 0;
+}
+.row{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer{
+    font-family: 'Montserrat';
+    font-size: 14px;
+}
+.contact.contact1{
+    font-family: 'Montserrat';
+}
+.contact{
+    margin-bottom: 2em;
+}
+.striped-border {
+    border: 1px dashed #000;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.address{
+    text-align: center
+}
+p{
+    font-family: "Oswald";
+}
+.work{
+    max-height: 500px;
+    width: 100%;
+}
+/*voor de map*/
+.map-container{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
