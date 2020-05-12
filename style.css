@@ -83,6 +83,7 @@ p {
 
 .menu > div:hover {
   cursor: pointer;
+  
 }
 
 /* inconsequent laatste woord */
@@ -99,4 +100,7 @@ p {
 .menu:hover > div {
   width: 7em;
   color: black;
+}
+a:hover {
+  text-decoration: none;
 }
