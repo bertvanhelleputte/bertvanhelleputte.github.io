@@ -1,0 +1,76 @@
+.box {
+  border: 12px solid #212529;
+  padding: 2em;
+}
+.box1{
+    background-color: #212529;
+}
+.text{
+    font-size: 7em;
+}
+/*voor de map*/
+.map-container {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .map-container iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  /* hokjes voor woorden */
+  .menu > div {
+    border-left: 0.5px solid black;
+    height: 1.7em;
+    width: 10px;
+    transition: 0.5s linear;
+    color: white;
+  }
+  
+  /* verborgen woorden */
+  .menu > div > a {
+    padding: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+  }
+  
+  /* inconsequent eerste lijntje */
+  .menu > div:first-child {
+    border-left: none;
+  }
+  
+  .menu > div:hover {
+    cursor: pointer;
+    }
+  
+  /* inconsequent laatste woord */
+  .menu:hover > div:last-child {
+    width: 5em;
+  }
+  
+  /* hover effect: woorden komen tevoorschijn */
+  .menu:hover > div > a {
+    width: 100%;
+    color: black;
+  }
+  
+  /* hover effect: hokjes voor woorden komen tevoorschijnen */
+  .menu:hover > div {
+    width: 7em;
+    color: black;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a{
+    display: block;
+  }
