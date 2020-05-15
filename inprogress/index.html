@@ -15,22 +15,22 @@
       href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="../menu.css" />
-    <link rel="stylesheet" href="menu.css" />
-    <script src="script.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
       integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="../vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../menu.css" />
+    <link rel="stylesheet" href="menu.css" />
   </head>
   <body>
     <div class="container col-8">
@@ -55,7 +55,16 @@
         </div>
         <div class="col-8 pr-0 d-flex flex-column align-self-end">
           <div class="gallery">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators mr-0 d-flex justify-content-end">
+                <li
+                  data-target="#myCarousel"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
@@ -81,7 +90,7 @@
               </div>
               <a
                 class="carousel-control-prev"
-                href="#carousel"
+                href="#myCarousel"
                 role="button"
                 data-slide="prev"
               >
@@ -93,7 +102,7 @@
               </a>
               <a
                 class="carousel-control-next"
-                href="#carousel"
+                href="#myCarousel"
                 role="button"
                 data-slide="next"
               >
@@ -104,16 +113,6 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-            </div>
-          
-
-          <div class="mb-4 d-flex justify-content-end icons ">
-            <span data-target="#carousel"  data-slide-to="0"
-              ><span class="active"></span
-            ></span>
-            <span data-target="#carousel" data-slide-to="1"><span></span></span>
-            <span data-target="#carousel" data-slide-to="2"><span></span></span>
-          </div>
           </div>
         </div>
       </div>
