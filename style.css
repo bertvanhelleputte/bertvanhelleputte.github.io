@@ -17,6 +17,7 @@
 .footer {
   font-family: "Montserrat";
   font-size: 14px;
+  width: 100%;
 }
 .contact.contact1 {
   font-family: "Montserrat";
@@ -26,7 +27,6 @@
 }
 .striped-border {
   border: 1px dashed #000;
-  width: 100%;
   margin: auto;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -82,6 +82,10 @@ p {
   border-left: none;
 }
 
+.menu > div:hover {
+  cursor: pointer;
+  }
+
 /* inconsequent laatste woord */
 .menu:hover > div:last-child {
   width: 5em;
@@ -97,4 +101,10 @@ p {
 .menu:hover > div {
   width: 7em;
   color: black;
+}
+a:hover {
+  text-decoration: none;
+}
+a{
+  display: block;
 }
