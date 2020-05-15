@@ -1,0 +1,15 @@
+.icons > span {
+  padding: 0.5em;
+  cursor: pointer;
+}
+
+.icons > span > span {
+  height: 1.2em;
+  border-left: 1px solid black;
+  width: 1px;
+}
+
+.icons > span:hover > span,
+.icons .active {
+  border-right: 1px solid black;
+}
