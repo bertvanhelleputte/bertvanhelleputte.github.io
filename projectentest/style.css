@@ -65,3 +65,6 @@
   a{
     display: block;
   }
+  .modal-dialog{
+    max-width: 70%;
+  }
