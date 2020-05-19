@@ -12,6 +12,9 @@
 .modal-dialog {
   margin-top: 11em;
 }
+.foto button {
+  border: none;
+}
 
 /*voor de map*/
 .map-container {
