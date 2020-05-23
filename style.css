@@ -110,24 +110,20 @@ p {
     display: block;
   }
 }
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-.menu > div {
-  border-left: 0.5px solid black;
-  height: 1.7em;
-  width: 6em;
-}
-.menu > div > a {
-  padding: 0.1em;
-  padding-left: 0.5em;
-  padding-right: 0.5em;
-  text-align: center;
-  white-space: nowrap;
-  text-decoration: none;
-  display: block;
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .menu > div {
+    border-left: 0.5px solid black;
+    height: 1.7em;
+    width: 6em;
+  }
+  .menu > div > a {
+    padding: 0.1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: center;
+    white-space: nowrap;
+    text-decoration: none;
+    display: block;
   }
   .menu > div:first-child {
     border-left: none;
@@ -135,16 +131,23 @@ p {
   .menu > div:last-child {
     width: 5em;
   }
-  a{
+  a {
     color: black;
   }
 }
-@media only screen and (max-device-width: 768px)
-{
-  .titel1{
+@media only screen and (max-device-width: 768px) {
+  .titel1 {
     font-size: 1.5em;
   }
-  .titel2{
+  .titel2 {
     font-size: 0.75em;
   }
+}
+
+.navbar-collapse {
+  top: 4em;
+  z-index: 1;
+  width: 80vw;
+  right: 0;
+  
 }
