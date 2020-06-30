@@ -64,3 +64,11 @@
   a{
     display: block;
   }
+
+.navbar-collapse {
+  top: 4em;
+  z-index: 1;
+  width: 80vw;
+  right: 0;
+  
+}
